@@ -9,7 +9,12 @@ const Navbar = () => {
       {/* logo */}
       <Link to="/" className="flex gap-1">
         <div>
-          <img src="./another.png" alt="logo" width={"65px"} height={"65px"} />
+          <img
+            src="./black-logo.png"
+            alt="logo"
+            width={"65px"}
+            height={"65px"}
+          />
         </div>
         <div>
           <h1 className="text-lg font-medium mt-3">Blog Market</h1>
