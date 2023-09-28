@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { BiSearchAlt } from "react-icons/bi";
 
 const Navbar = () => {
-  const user = true;
+  const user = false;
   return (
-    <div className="flex items-center justify-between px-6 md:px-[200px] py-4">
+    <div className="flex items-center justify-between px-6 md:px-[200px] py-4 border-b-[1px] shadow-sm">
       {/* logo */}
       <Link to="/" className="flex gap-1">
         <div>
           <img
-            src="./black-logo.png"
+            src="/black-logo.png"
             alt="logo"
             width={"65px"}
             height={"65px"}
@@ -22,7 +22,7 @@ const Navbar = () => {
       </Link>
 
       {/* search bar */}
-      <div className="hidden md:flex items-center justify-center space-x-0  rounded-lg overflow-hidden px-1 py-2 shadow-lg">
+      <div className="hidden md:flex items-center justify-center space-x-0  rounded-lg overflow-hidden px-1 py-2 shadow-sm">
         <label htmlFor="search">
           <BiSearchAlt className="w-7 h-7" />
         </label>

@@ -7,7 +7,7 @@ const Footer = () => {
         {/* dibagi menjadi 3 column */}
         <div className="flex flex-col">
           <img
-            src="./white-logo.png"
+            src="/white-logo.png"
             alt="logo-white"
             width={"90px"}
             height={"90px"}
@@ -32,9 +32,9 @@ const Footer = () => {
           <p>Terms of Services</p>
         </div>
       </div>
-      <div className="bg-black">
+      <div className="bg-black md:px-[200px] px-6">
         <p className="text-center border-white border-t-[1px] py-4 px-6">
-          All rights reserved @M19Y 2023
+          All rights reserved @M19Y Corp. 2023
         </p>
       </div>
     </footer>
